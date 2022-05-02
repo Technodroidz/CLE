@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData socket.io
+20 silly mapToRegistry name socket.io
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+24 verbose request uri https://registry.npmjs.org/socket.io
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 1:57:22 PM
+27 verbose request id 5fb4ff28dda068db
+28 verbose etag W/"29074243f27f1c9893dc0c183b47b63c"
+29 verbose lastModified Thu, 25 Nov 2021 16:21:44 GMT
+30 http request GET https://registry.npmjs.org/socket.io
+31 http 304 https://registry.npmjs.org/socket.io
+32 verbose headers { date: 'Thu, 23 Dec 2021 13:57:22 GMT',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'cf-ray': '6c22193dcefa34c0-DUB',
+32 verbose headers   age: '165',
+32 verbose headers   'cache-control': 'public, max-age=300',
+32 verbose headers   etag: '"29074243f27f1c9893dc0c183b47b63c"',
+32 verbose headers   'last-modified': 'Thu, 25 Nov 2021 16:21:44 GMT',
+32 verbose headers   vary: 'Accept-Encoding',
+32 verbose headers   'cf-cache-status': 'HIT',
+32 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+32 verbose headers   'x-amz-replication-status': 'COMPLETED',
+32 verbose headers   server: 'cloudflare' }
+33 silly get cb [ 304,
+33 silly get   { date: 'Thu, 23 Dec 2021 13:57:22 GMT',
+33 silly get     connection: 'keep-alive',
+33 silly get     'cf-ray': '6c22193dcefa34c0-DUB',
+33 silly get     age: '165',
+33 silly get     'cache-control': 'public, max-age=300',
+33 silly get     etag: '"29074243f27f1c9893dc0c183b47b63c"',
+33 silly get     'last-modified': 'Thu, 25 Nov 2021 16:21:44 GMT',
+33 silly get     vary: 'Accept-Encoding',
+33 silly get     'cf-cache-status': 'HIT',
+33 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 silly get     'x-amz-replication-status': 'COMPLETED',
+33 silly get     server: 'cloudflare' } ]
+34 verbose etag https://registry.npmjs.org/socket.io from cache
+35 verbose get saving socket.io to /home/ubuntu/.npm/registry.npmjs.org/socket.io/.cache.json
+36 verbose stack Error: Missing required argument #1
+36 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+36 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+36 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+36 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+36 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+36 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+36 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+36 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+36 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:125:46)
+36 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+37 verbose cwd /var/www/html/ws/server
+38 error Linux 5.4.0-1060-aws
+39 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+40 error node v8.10.0
+41 error npm  v3.5.2
+42 error code EMISSINGARG
+43 error typeerror Error: Missing required argument #1
+43 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+43 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+43 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+43 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+43 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+43 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+43 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+43 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+43 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:125:46)
+43 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+44 error typeerror This is an error with npm itself. Please report this error at:
+44 error typeerror     <http://github.com/npm/npm/issues>
+45 verbose exit [ 1, true ]

@@ -1,0 +1,19 @@
+<Response>
+  
+    
+    <Play>https://videochat-app.younggeeks.net/video-chat/media/ringtone.mp3</Play>
+    <Say>this is outgoing call</Say>
+    
+    <!--for redirect  to incomming message testing-->
+    <!--<Redirect method="GET">https://videochat-app.younggeeks.net/video-chat/dash/twillo/twilio-call.php</Redirect>-->
+    
+    <!--//this is for calling request number through twilio-->
+    <Dial callerId="+12056497369">19843698672</Dial>
+    
+    
+    <!--<Dial callerId="+19386666095"><?php echo $_POST['To']; ?></Dial>--> <!--this is for calling from post request number through twilio-->
+    
+    <!--<Play>http://demo.twilio.com/docs/classic.mp3</Play>-->
+    
+    <!--<Play>https://videochat-app.younggeeks.net/video-chat/server/recordings/record_coe_327_25_3_2021_151155.webm.mp4</Play>-->
+</Response>

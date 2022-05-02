@@ -1,0 +1,5 @@
+category,question_name,question_text,default_marks,gernal_feedback,status,,,,,
+English,question1,What will be the value of $var? ,10,,1,,,,,
+Hindi,question2,Who is he,50,,1,,,,,
+Math,question3,Who are you,40,,1,,,,,
+Science,question4,what is the subject,30,,1,,,,,
